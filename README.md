@@ -13,6 +13,13 @@ BUILDING A CMS SHOPPING CART USING EXPRESS
 
 ### 04 project setup 2
 
+        >> npm install -g nodemon
+        >> npm install --save express ejs
+        modified:   README.md
+        new file:   app.js
+        new file:   package-lock.json
+        modified:   package.json
+
 ### 05 connecting to mongodb
 
 ### 06 templates

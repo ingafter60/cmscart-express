@@ -10,11 +10,17 @@
     "type": "git",
     "url": "git+https://github.com/ingafter60/cmscart-express.git"
   },
-  "keywords": ["cmscart-express"],
+  "keywords": [
+    "cmscart-express"
+  ],
   "author": "i nyoman gurnitha",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ingafter60/cmscart-express/issues"
   },
-  "homepage": "https://github.com/ingafter60/cmscart-express#readme"
+  "homepage": "https://github.com/ingafter60/cmscart-express#readme",
+  "dependencies": {
+    "ejs": "^2.5.7",
+    "express": "^4.15.1"
+  }
 }
