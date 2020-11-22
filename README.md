@@ -44,6 +44,13 @@ BUILDING A CMS SHOPPING CART USING EXPRESS
         modified:   app.js
         new file:   routes/pages.js
 
+### 07.2 routes setup - Admin route
+
+        modified:   README.md
+        modified:   app.js
+        new file:   routes/admin_pages.js
+        modified:   routes/pages.js
+
 ### 08 getting more packages
 
 ### 09 creating the page model

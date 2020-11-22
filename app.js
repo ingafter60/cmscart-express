@@ -28,9 +28,11 @@ app.use(express.static(path.join(__dirname, 'public')))
 
 // Set route
 var pages = require('./routes/pages.js')
+var adminPages = require('./routes/admin_pages.js')
 
 // Set the urls
 app.use('/', pages)
+app.use('/admin/pages', adminPages)
 
 // Start the server
 var PORT = 3000
