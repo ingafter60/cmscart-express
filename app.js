@@ -5,7 +5,6 @@ var mongoose = require('mongoose')
 var config = require('./config/database')
 
 // Connect to db
-// mongoose.connect('mongodb://localhost/cmscart-express')
 mongoose.connect(config.database, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
@@ -27,12 +26,11 @@ app.set('view engine', 'ejs')
 // Setu public folder
 app.use(express.static(path.join(__dirname, 'public')))
 
-// Route
-app.get('/', function (req, res) {
-  res.render('index', {
-    title: 'Home',
-  })
-})
+// Set route
+var pages = require('./routes/pages.js')
+
+// Set the urls
+app.use('/', pages)
 
 // Start the server
 var PORT = 3000

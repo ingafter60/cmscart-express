@@ -38,7 +38,11 @@ BUILDING A CMS SHOPPING CART USING EXPRESS
         new file:   views/shared/footer.ejs
         new file:   views/shared/header.ejs
 
-### 07 routes setup
+### 07.1 routes setup - Home route
+
+        modified:   README.md
+        modified:   app.js
+        new file:   routes/pages.js
 
 ### 08 getting more packages
 
