@@ -68,6 +68,9 @@ BUILDING A CMS SHOPPING CART USING EXPRESS
 
 ### 09 creating the page model
 
+        modified:   README.md
+        new file:   models/page.js
+
 ### 10 get add page
 
 ### 11 post add page 1
