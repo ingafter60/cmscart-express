@@ -4,8 +4,13 @@
   "description": "BUILDING A CMS SHOPPING CART USING EXPRESS",
   "main": "app.js",
   "dependencies": {
+    "body-parser": "^1.17.2",
+    "connect-flash": "^0.1.1",
     "ejs": "^2.7.4",
     "express": "^4.17.1",
+    "express-messages": "^1.0.1",
+    "express-session": "^1.15.5",
+    "express-validator": "3.2.1",
     "mongoose": "4.11.5"
   },
   "devDependencies": {},

@@ -53,6 +53,19 @@ BUILDING A CMS SHOPPING CART USING EXPRESS
 
 ### 08 getting more packages
 
+        >> npm install --save body-parser
+        >> npm install --save express-session
+        >> npm install --save express-validator
+        >> npm install --save express-messages
+        >> npm install --save connect-flash
+        modified:   README.md
+        modified:   app.js
+        modified:   package-lock.json
+        modified:   package.json
+        new file:   views/messages.ejs
+        modified:   views/shared/adminheader.ejs
+        modified:   views/shared/header.ejs
+
 ### 09 creating the page model
 
 ### 10 get add page
