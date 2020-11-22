@@ -73,6 +73,12 @@ BUILDING A CMS SHOPPING CART USING EXPRESS
 
 ### 10 get add page
 
+        modified:   README.md
+        modified:   routes/admin_pages.js
+        new file:   views/admin/add_page.ejs
+        modified:   views/shared/adminfooter.ejs
+        modified:   views/shared/adminheader.ejs
+
 ### 11 post add page 1
 
 ### 12 post add page 2
