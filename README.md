@@ -22,6 +22,12 @@ BUILDING A CMS SHOPPING CART USING EXPRESS
 
 ### 05 connecting to mongodb
 
+        >> npm install --save mongoose
+        modified:   app.js
+        new file:   config/database.js
+        modified:   package-lock.json
+        modified:   package.json
+
 ### 06 templates
 
 ### 07 routes setup

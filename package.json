@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "description": "BUILDING A CMS SHOPPING CART USING EXPRESS",
   "main": "app.js",
+  "dependencies": {
+    "ejs": "^2.7.4",
+    "express": "^4.17.1",
+    "mongoose": "4.11.5"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,17 +16,11 @@
     "type": "git",
     "url": "git+https://github.com/ingafter60/cmscart-express.git"
   },
-  "keywords": [
-    "cmscart-express"
-  ],
-  "author": "i nyoman gurnitha",
+  "keywords": [],
+  "author": "I Nyoman Gurnitha",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/ingafter60/cmscart-express/issues"
   },
-  "homepage": "https://github.com/ingafter60/cmscart-express#readme",
-  "dependencies": {
-    "ejs": "^2.5.7",
-    "express": "^4.15.1"
-  }
+  "homepage": "https://github.com/ingafter60/cmscart-express#readme"
 }

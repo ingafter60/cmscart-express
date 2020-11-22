@@ -1,6 +1,21 @@
 // Import modules
 var express = require('express')
 var path = require('path')
+var mongoose = require('mongoose')
+var config = require('./config/database')
+
+// Connect to db
+// mongoose.connect('mongodb://localhost/cmscart-express')
+mongoose.connect(config.database, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+})
+
+var db = mongoose.connection
+db.on('error', console.error.bind(console, 'connection error'))
+db.once('open', function () {
+  console.log('Connected to MongoDB')
+})
 
 // Init app
 var app = express()
