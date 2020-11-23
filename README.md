@@ -92,11 +92,17 @@ BUILDING A CMS SHOPPING CART USING EXPRESS
         modified:   README.md
         modified:   routes/admin_pages.js
 
-### 13 admin pages index
+### 13.1 admin pages index
 
         modified:   README.md
         modified:   routes/admin_pages.js
         new file:   views/admin/pages.ejs
+
+### 13.2 (corecting link) admin pages index
+
+        >> corecting link from: href="/admin/pages/add-pages"
+        >> to
+        >> corecting link from: href="/admin/pages/add-page"
 
 ### 14 admin pages sorting
 
