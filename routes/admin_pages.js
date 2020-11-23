@@ -8,7 +8,13 @@ var Page = require('../models/page')
  * GET pages index
  */
 router.get('/', function (req, res) {
-  res.send('Admin area')
+  Page.find({})
+    .sort({ sorting: 1 })
+    .exec(function (err, pages) {
+      res.render('admin/pages', {
+        pages: pages,
+      })
+    })
 })
 
 /*
@@ -61,7 +67,7 @@ router.post('/add-page', function (req, res) {
           title: title,
           slug: slug,
           content: content,
-          sorting: 0,
+          sorting: 100,
         })
 
         page.save(function (err) {

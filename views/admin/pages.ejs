@@ -1,0 +1,32 @@
+<%- include('../shared/adminheader') %>
+
+<h2 class="page-title">Pages</h2>
+<br>
+<a href="/admin/pages/add-pages" class="btn btn-primary">Add a new page</a>
+<br><br><br>
+
+<table class="table table-striped">
+   <thead>
+      <tr>
+         <th>Title</th>
+         <th>Edit</th>
+         <th>Delete</th>
+      </tr>
+   </thead>
+   <tbody>
+      <% pages.forEach(function(page) { %>
+         <tr>
+            <th><%= page.title %></th>
+            <th><a href="/admin/pages/edit-page/<%= page.slug %>">Edit</a></th>
+            <% if (page.slug == "home") { %>
+               <td></td>
+            <% } else {%>
+               <th><a href="/admin/pages/delete-page/<%= page._id %>">Delete</a></th>
+            <% } %>
+         </tr>
+      <% }) %>
+   </tbody>
+</table>
+
+
+<%- include('../shared/adminfooter') %>
